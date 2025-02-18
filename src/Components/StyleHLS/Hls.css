@@ -1,0 +1,47 @@
+/* Add your custom styles */
+.plyr__controls .plyr__controls__item.plyr__play-large {
+    color: #ff0000; /* Change to your desired color */
+  }
+
+  .plyr--full-ui.plyr--video .plyr__control--overlaid  {
+    background-color: #1A49A3;
+}
+
+.plyr__volume input[type=range] {
+   color: #1A49A3 !important;
+}
+.plyr__progress input[type=range]{
+    color: #1A49A3 !important;
+
+
+}
+
+.plyr__controls .plyr__controls__item:first-child:hover{
+    transition: 0.5s linear;
+    background-color: #1A49A3;
+}
+
+.plyr__control:hover {
+    transition: 0.5s linear;
+    background-color: #1A49A3 !important;
+}
+
+.plyr__controls__item plyr__control{
+    display: none !important;
+}
+
+
+
+/* Player style */
+
+#custom-message {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
